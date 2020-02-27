@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: 'Concert One', ;
+}
+
+body, html{
+  margin: 0px;
+  padding: 0px;
+  color: #2929ff;
+}
+
+body{
+  background-image: url(https://ak2.picdn.net/shutterstock/videos/11381252/thumb/1.jpg);
+  background-repeat: repeat;
+  background-size:contain;
+  background-color: #9dd3eb;
+}
+
+h1{
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+.mainContainer h2, h3{
+  margin: 20px;
+  display:flex;
+  justify-content:flex-start;
+  text-decoration: underline;
+  font-size: 7vh;
+}
+
+.someText p{
+  font-size: 3vh
+}
+
+.mainContainer .someText{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin:20px;
+  border: 2px solid black;
+  padding: 16px;
+}
+
+.mainContainer > .someText:hover {
+  background-image: url(https://www.jing.fm/clipimg/full/217-2179931_cow-moo-retro-rpg-game-speechbubble-freetoedit-pixel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bottomBanner{
+  bottom:0;
+  width:100%;
+  height: 125vh;
+  background-image: url(https://media.istockphoto.com/photos/highland-cow-picture-id179069889?k=6&m=179069889&s=612x612&w=0&h=MJwWkOz29Q6BUG5i39vW0kVkzhBOnWtj8wtObyrTFzQ=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottomBar{
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  height: 40%;
+  background-image: url(https://pngimg.com/uploads/grass/grass_PNG401.png);
+  background-repeat: no-repeat;
+}
